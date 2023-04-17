@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    background-color: #191919;
+}
+
+.home{
+    height:100vh;
+    width:100%;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 7%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .4s;
+}
+
+.homeContent {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    padding-right: 50%;
+}
+
+.homeContent h3{
+    color: slategrey;
+}
+
+.homeContent h5{
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 20px 0px 20px
+}
+
+.homeContent h6{
+    font-size: 20px;
+}
+
+#about{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+#about img{
+    height: auto;
+    width: 440px;
+}
+
+.aboutMe{
+    width: 550px;
+
+}
+.aboutMe h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.aboutMe p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+#resume{
+    margin-top: 10%;
+}
+.title h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+    background-color: gray;
+}
+.card h2{
+    background-color: gray;
+}
+.card p {
+    background-color: gray;
+}
+
+#portfolioPage{
+    margin-top: 20%;
+}
+
+#portfolioPage h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#portfolioPage h4{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.portfolioItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+
+
+.realist{
+    width: 80%;
+}
+
+.shoebox{
+    width: 102%;
+    
+}
+
+.contactList ul{
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+.contactList li{
+    text-decoration: none;
+}
+
+@media (min-width: 500px) {
+    .contactList ul {
+    grid-auto-flow: column;
+    }
+}
+
+.contactList a {
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.contactList a:hover{
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.contactList{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #191919;
+    line-height: 1.3;
+    font-family: Menlo, monospace;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+
